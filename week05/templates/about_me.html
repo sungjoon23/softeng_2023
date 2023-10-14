@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+       <div class="row">
+              <div class="col-9">
+                     <h1>김성준이란 누구인가?</h1>
+                     <h3>나이 - 24</h3>
+                     <h4>롤 티어 - 에메랄드</h4>
+                     <h5>하고 있는 일 - 연구생</h5>
+                     <h6>취미 - 운동</h6>
+                     <h7>앞으로 하고 싶은 일 - 잠자기</h7>
+                     <hr/>
+              </div>
+
+              <div class="col-3">
+                     <img src= {{url_for('static', filename= 'img/KakaoTalk_20231008_194648698.jpg')}} height="400">
+              </div>
+
+{% endblock %}
